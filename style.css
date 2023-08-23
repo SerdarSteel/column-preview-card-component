@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding: 20px;
+}
+
+.container {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card {
+    height: 350px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    margin: 20px 0;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+}
+
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+}
+
+.btn-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+}
+
+p, .btn {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.card-1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+    background-color:  hsl(179, 100%, 13%);
+}
+
+@media screen and (min-width: 768px) {
+
+    html,
+    body {
+        height: calc(100% - 20px);
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container {
+        height: 400px;
+        display: flex;
+        max-width: 768px;
+    }
+
+    .box {
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
